@@ -1,9 +1,11 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors select all of that element type */
 body {
     background-color: #d9dcd6;
 }
@@ -17,6 +19,7 @@ p {
     font-size: 16px;
 }
 
+/* Class Selectors select all elements with that class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
